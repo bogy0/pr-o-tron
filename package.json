@@ -1,0 +1,20 @@
+{
+  "name": "pr-o-tron",
+  "version": "1.0.0",
+  "description": "The Pull Request Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogy0/pr-o-tron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogy0/pr-o-tron/issues"
+  },
+  "homepage": "https://github.com/bogy0/pr-o-tron#readme"
+}
