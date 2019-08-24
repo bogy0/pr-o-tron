@@ -2,6 +2,10 @@
     "name": "pr-o-tron",
     "version": 2,
     "builds": [
+      { 
+        "src": "landing.html",
+        "use": "@now/static"
+      },
       {
         "src": "index.js",
         "use": "@now/node"
