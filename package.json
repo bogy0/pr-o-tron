@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bogy0/pr-o-tron/issues"
   },
-  "homepage": "https://github.com/bogy0/pr-o-tron#readme"
+  "homepage": "https://github.com/bogy0/pr-o-tron#readme",
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
 }
