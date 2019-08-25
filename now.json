@@ -3,17 +3,20 @@
     "version": 2,
     "builds": [
       { 
-        "src": "landing.html",
+        "src": "frontend/*.html",
         "use": "@now/static"
       },
       {
-        "src": "index.js",
+        "src": "/api/index.js",
         "use": "@now/node"
       },
       {
-        "src": "oauth.js",
+        "src": "/api/oauth.js",
         "use": "@now/node"
       }
+    ],
+    "routes": [
+      { "src": "/frontend/index.html", "headers": {"cache-control": "s-maxage=1000"}, "dest": "/index.html" }
     ],
     "env": {
         "SLACK_CLIENT_ID": "@slack-client-id",
