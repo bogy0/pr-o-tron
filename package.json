@@ -19,6 +19,6 @@
   "homepage": "https://github.com/bogy0/pr-o-tron#readme",
   "dependencies": {
     "micro": "^9.3.4",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
